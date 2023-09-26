@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+    <title>Google Search</title>
+</head>
+<body>
+    <header>
+        <nav class="main_nav">
+            <ul>
+                <li><a href='https://about.google/'>About</a></li>
+                <li><a href='https://store.google.com/'>Store</a></li>
+            </ul>
+            <ul>
+                <li><a href='https://mail.google.com/mail'>Gmail</a></li>
+                <li><a href='images.html'>Images</a></li>
+                <li class="img-bg_item"><img class="app_img"src="/pics/menu.png"></li>
+                <li class="img-bg_item"><img class="person_img" src="/pics/person.png"></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="search_menu">
+        <img class="google_logo" src="/pics/logo.png">
+        <form class="search_form" action="https://www.google.com/search">
+            <img class="search" src="/pics/search.png">
+            <img class="microphone" src="/pics/mic.png">
+            <input class="search_bar"  type="text" name="q" id="whatTheHeck" required>
+            <div class="search_buttons">
+                <button class="search_button" type="submit" onclick="showAlert()">Google Search</button>
+                <button class="search_button" type="submit" onclick="showAlert()">I'm Feeling Lucky</button>
+            </div>
+        </form>
+    </section>
+    <footer class="main_footer">
+        <ul>
+            <li><a href='https://ads.google.com/'>Advertising</a></li>
+            <li><a href='https://smallbusiness.withgoogle.com/'>Business</a></li>
+            <li><a href='https://www.google.com/search/'>How Search Works</a></li>
+        </ul>
+        <ul>
+            <li><img src="/pics/leaf.png"></li>
+            <li><a href='https://sustainability.google/'>Our third decade of climate action: join us</a></li>
+        </ul>
+        <ul>
+            <li><a href='https://policies.google.com/'>Privacy</a></li>
+            <li><a href='https://policies.google.com/terms'>Terms</a></li>
+            <li>Settings</li>
+        </ul>
+    </footer>
+</body>
+</html>
